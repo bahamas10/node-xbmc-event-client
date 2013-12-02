@@ -223,7 +223,7 @@ Set button state
   - `state.down`: [boolean] the button is pushed down, defaults to `true`
   - `state.queue`: [boolean] queue is specified, defaults to `false`
   - `state.repeat`: [boolean] the button should repeat, defaults to `true`
-  - `state.amount`: [int] amount button is pushed, 0 <= `amount` <= 65535, defaults to `undefined`
+  - `state.amount`: [int] amount button is pushed, 0 <= `amount` <= 65535, defaults to `0`
   - `state.axis`: [int] number of axis, defaults to `0`
 - `cb`: [optional] callback function to fire when all packets are sent
 
