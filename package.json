@@ -1,7 +1,7 @@
 {
   "name": "xbmc-event-client",
   "description": "XBMC EventServer API Client using UDP sockets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "contributors": [],
   "repository": {
