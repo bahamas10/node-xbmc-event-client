@@ -1,0 +1,29 @@
+{
+  "name": "xbmc-event-client",
+  "description": "XBMC EventServer API Client using UDP sockets",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-xbmc-event-client.git"
+  },
+  "scripts": {
+    "test": "for f in test/*.js; do echo \"\n$f\"; node \"$f\" || exit 1; sleep 2; done; echo Passed; exit 0"
+  },
+  "main": "./xbmc-event-client.js",
+  "dependencies": {
+  },
+  "bin": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "xbmc",
+    "xbox",
+    "event",
+    "udp"
+  ]
+}
